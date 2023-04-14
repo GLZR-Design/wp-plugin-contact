@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-glzr-wp-plugin-contact {
+  h3 {
+	margin-top: 0;
+  }
+  p {
+	margin-bottom: 0.25em;
+  }
+	.contact-email {
+	  &:before {
+		content: "E-Mail: ";
+	  }
+	}
+  .contact-phone {
+	&:before {
+	  content: "Telefon: ";
+	}
+  }
+}
