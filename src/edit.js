@@ -34,7 +34,6 @@ export default function Edit() {
 
 	const TEMPLATE = [ [ 'core/columns', {
 		isStackedOnMobile: false,
-		templateLock: true,
 		verticalAlignment: "top"
 	}, [
 		[ 'core/column', {
@@ -57,7 +56,6 @@ export default function Edit() {
 		<div { ...useBlockProps() }>
 			<InnerBlocks
 				template={ TEMPLATE }
-				templateLock="all"
 			/>
 		</div>
 	);
